@@ -1,0 +1,49 @@
+Diapositive 1 : Introduction
+Titre : Comparaison entre MongoDB (NoSQL) et SQL (Bases de données relationnelles)
+
+Objectif de la présentation : Présenter et comparer MongoDB, une base de données NoSQL, avec un système de gestion de bases de données relationnelles (SQL).
+Pourquoi comparer ? Les bases de données NoSQL comme MongoDB et les bases de données relationnelles SQL sont toutes deux populaires, mais elles ont des cas d'utilisation différents.
+Diapositive 2 : Présentation de MongoDB (NoSQL)
+Titre : MongoDB (NoSQL)
+
+Nature : Base de données NoSQL orientée documents.
+Structure des données : Stocke les données sous forme de documents JSON/BSON (Binary JSON), ce qui permet une grande flexibilité.
+Fonctionnalités principales :
+Scalabilité horizontale : MongoDB permet d'ajouter facilement des serveurs pour gérer de grandes quantités de données.
+Modèle flexible : Pas de schéma rigide. Les documents peuvent avoir des structures différentes.
+Performance : Très performant pour les requêtes simples et la gestion de grandes quantités de données non structurées.
+Haute disponibilité : Réplication automatique et partitionnement des données (sharding).
+Diapositive 3 : Présentation d'une base de données SQL
+Titre : Bases de données relationnelles (SQL)
+
+Nature : Base de données relationnelle qui utilise des tables pour organiser les données.
+Structure des données : Données organisées en tables avec des lignes et des colonnes. Chaque table a un schéma prédéfini (structure des données).
+Fonctionnalités principales :
+Transactions ACID : Garantit la fiabilité des opérations (Atomicité, Cohérence, Isolation, Durabilité).
+Requêtes complexes : Supporte des requêtes SQL très puissantes avec des jointures, des sous-requêtes et des agrégations.
+Intégrité des données : Force une structure définie, garantissant la cohérence des données.
+Scalabilité verticale : Amélioration des performances en ajoutant des ressources matérielles.
+Diapositive 4 : Comparaison MongoDB vs SQL
+Titre : Comparaison entre MongoDB et SQL
+
+Critère	MongoDB (NoSQL)	SQL
+Modèle de données	Documents JSON/BSON (pas de schéma fixe)	Tables avec schémas définis (lignes et colonnes)
+Scalabilité	Horizontale (sharding)	Verticale (ajout de ressources matérielles)
+Flexibilité des données	Haute flexibilité (données non structurées)	Moins flexible (structure rigide)
+Transactions	ACID partielle	Transactions ACID complètes
+Performances	Très performant sur de grandes quantités de données non structurées	Idéal pour les applications transactionnelles et structurées
+Cas d'utilisation	Big Data, applications en temps réel, gestion de documents	Systèmes transactionnels, CRM, ERP
+Diapositive 5 : Cas d'utilisation et conclusion
+Titre : Cas d'utilisation et conclusion
+
+MongoDB (NoSQL) : Idéal pour :
+Applications web en temps réel (ex. : chat, réseaux sociaux)
+Big Data et gestion de documents
+Systèmes nécessitant une forte scalabilité horizontale
+SQL : Idéal pour :
+Applications transactionnelles (ex. : gestion des stocks, finances)
+Données fortement structurées et relations complexes entre entités
+Systèmes nécessitant une forte intégrité des données et des requêtes complexes
+Conclusion : Le choix entre MongoDB et une base de données SQL dépend des exigences spécifiques de l'application, notamment en termes de scalabilité, de flexibilité des données et de complexité des transactions.
+
+Cette présentation fournit une vue d'ensemble complète des différences entre MongoDB et SQL, ce qui permet de mieux comprendre dans quel contexte chaque technologie est la plus appropriée.
